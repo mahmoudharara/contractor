@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "contractor\\contractorServiceProvider.php"
+                "contractor\\ContractorServiceProvider.php"
             ]
         }
     },

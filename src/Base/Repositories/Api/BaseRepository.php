@@ -9,9 +9,9 @@ use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-usecontractor\Base\Http\Resources\BaseResource;
-usecontractor\Base\Interfaces\BaseInterface;
-usecontractor\Base\Repositories\ImageRepository;
+use contractor\Base\Http\Resources\BaseResource;
+use contractor\Base\Interfaces\BaseInterface;
+use contractor\Base\Repositories\ImageRepository;
 
 
 class BaseRepository extends GeneralRepository implements BaseInterface

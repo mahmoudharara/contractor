@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\File;
 use Intervention\Image\ImageManager;
 
 use Illuminate\Support\Facades\Response;
-usecontractor\Base\Exceptions\UploadErrorException;
-usecontractor\Base\Repositories\ImageRepository;
+use contractor\Base\Exceptions\UploadErrorException;
+use contractor\Base\Repositories\ImageRepository;
 
 class ImageController extends Controller
 {

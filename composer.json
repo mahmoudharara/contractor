@@ -7,8 +7,8 @@
             "contractor\\": "src"
         },
         "files": [
-            "src//Base/Helpers/Constants.php",
-            "src/Base/Helpers/CommonFunctions.php"
+            "src/Helpers/Constants.php",
+            "src/Helpers/CommonFunctions.php"
 
         ]
     },

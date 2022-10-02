@@ -9,10 +9,10 @@
  namespace contractor\Base\Repositories;
 
 
-use App\Models\Image;
+
 use Illuminate\Support\Facades\Storage;
-usecontractor\Base\Exceptions\UploadErrorException;
-usecontractor\Base\Interfaces\AttachmentInterface;
+use contractor\Base\Exceptions\UploadErrorException;
+use contractor\Base\Interfaces\AttachmentInterface;
 
 
 class FileRepository implements AttachmentInterface

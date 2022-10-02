@@ -9,10 +9,10 @@
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-usecontractor\Base\Events\UserAuthentication;
-usecontractor\Base\Http\Requests\BaseRequest;
-usecontractor\Base\Http\Resources\AuthResource;
-usecontractor\Repositories\Api\AuthRepository;
+use contractor\Base\Events\UserAuthentication;
+use contractor\Base\Http\Requests\BaseRequest;
+use contractor\Base\Http\Resources\AuthResource;
+use contractor\Repositories\Api\AuthRepository;
 
 class AuthController extends BaseController
 {

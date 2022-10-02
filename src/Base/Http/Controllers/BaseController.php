@@ -7,9 +7,9 @@
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-usecontractor\Base\Http\Requests\BaseRequest;
-usecontractor\Base\Repositories\Api\BaseRepository;
-usecontractor\Base\Traits\HasSheet;
+use contractor\Base\Http\Requests\BaseRequest;
+use contractor\Base\Repositories\Api\BaseRepository;
+use contractor\Base\Traits\HasSheet;
 
 
 

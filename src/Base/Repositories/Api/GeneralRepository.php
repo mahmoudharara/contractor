@@ -7,8 +7,8 @@
 use App\LocationData;
 use App\Locations;
 use Illuminate\Database\Eloquent\Model;
-usecontractor\Base\Traits\HasFilters;
-usecontractor\Base\Traits\RepositoryModel;
+use contractor\Base\Traits\HasFilters;
+use contractor\Base\Traits\RepositoryModel;
 
 
 class GeneralRepository

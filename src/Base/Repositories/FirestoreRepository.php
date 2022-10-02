@@ -13,7 +13,7 @@ use Google\Cloud\Core\Exception\NotFoundException;
 use Google\Cloud\Firestore\CollectionReference;
 use Google\Cloud\Firestore\DocumentReference;
 use Google\Cloud\Firestore\FirestoreClient;
-usecontractor\Base\Interfaces\FirestoreInterface;
+use contractor\Base\Interfaces\FirestoreInterface;
 
 
 class FirestoreRepository implements FirestoreInterface

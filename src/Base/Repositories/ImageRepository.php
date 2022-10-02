@@ -10,11 +10,12 @@
 
 
 
+use contractor\Base\Models\Image;
 use Illuminate\Support\Facades\Storage;
 
 use Intervention\Image\Facades\Image as ImageIntervention;
-usecontractor\Base\Exceptions\UploadErrorException;
-usecontractor\Base\Interfaces\AttachmentInterface;
+use contractor\Base\Exceptions\UploadErrorException;
+use contractor\Base\Interfaces\AttachmentInterface;
 
 class ImageRepository implements AttachmentInterface
 {
@@ -103,7 +104,7 @@ class ImageRepository implements AttachmentInterface
      */
     public function saveToModel($data)
     {
-        return \Modules\Core\Models\Image::create($data);
+        return Image::create($data);
     }
 
     /**

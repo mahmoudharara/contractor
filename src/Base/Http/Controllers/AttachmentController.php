@@ -5,8 +5,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 
-usecontractor\Base\Http\Resources\AttachmentResource;
-usecontractor\Base\Repositories\ImageRepository;
+use contractor\Base\Http\Resources\AttachmentResource;
+use contractor\Base\Repositories\ImageRepository;
 
 
 class AttachmentController extends Controller
